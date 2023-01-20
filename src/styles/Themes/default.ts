@@ -1,0 +1,15 @@
+export const defaultTheme = {
+  green300: "#00B37E",
+  green500: "#00875F",
+  green700: "#015F43",
+  red500: "#F03847",
+  red700: "#7A1921",
+  gray100: "#E1E1E6",
+  gray200: "#C4C4CC",
+  gray300: "#8D8D99",
+  gray400: "#7C7C8A",
+  gray500: "#323238",
+  gray600: "#202024",
+  gray700: "#121214",
+  white: "#FFFFFF",
+};
