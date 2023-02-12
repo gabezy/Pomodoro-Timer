@@ -6,12 +6,12 @@ import {
   HomeContainer,
   StopCountdownButton,
 } from "./styles";
-import { NewCycleForm } from "./Components/NeyCycleForm";
+import { NewCycleForm } from "./Components/NewCycleForm";
 import { Countdown } from "./Components/Countdown";
 import { FormProvider, useForm } from "react-hook-form";
 import { zodResolver } from "@hookform/resolvers/zod";
 import * as zod from "zod";
-import { CyclesContext } from "../../contexts/CycleContenx";
+import { CyclesContext } from "../../contexts/CycleContext";
 
 const newCycleFormValidationSchema = zod.object({
   task: zod.string().min(1, "Informe a tarefa"),
